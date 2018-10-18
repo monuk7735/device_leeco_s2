@@ -191,8 +191,8 @@ USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
 # Keymaster
 TARGET_PROVIDES_KEYMASTER := true
 
-# Lineage Hardware
-JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(DEVICE_PATH)/lineagehw|**/*.java
+# Key disabler
+JAVA_SOURCE_OVERLAYS := org.pixelexperience.keydisabler|$(DEVICE_PATH)/keydisabler|**/*.java
 
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
