@@ -205,8 +205,8 @@ vendor/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so
 vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0_vendor.so
 
-# Gatekeeper
-vendor/lib64/hw/gatekeeper.msm8952.so
+# Gatekeeper - from - EUi 6.0.030s
+vendor/lib64/hw/gatekeeper.msm8952.so|84bfbe108138742ab7b57b231ea7127a772ffbee
 
 # GPS - from Mi A2 Lite daisy_sprout 9 PKQ1.180917.001/V10.0.3.0.PDLMIXM release-keys
 lib64/vendor.qti.gnss@1.0.so|90b465adc4542f16fbdd935d0592df73d778909b
@@ -314,8 +314,8 @@ vendor/lib64/hw/vulkan.msm8952.so|a442c83cc25798de78fa0336358a85c8a7daccc3
 # IPA
 vendor/bin/ipacm-diag
 
-# Keystore
-vendor/lib64/hw/keystore.msm8952.so
+# Keystore - from - EUi 6.0.030s
+vendor/lib64/hw/keystore.msm8952.so|fc7b3c8789cf160585cae0c89bc95d4ef9d29c9a
 
 # Listen
 vendor/lib/hw/sound_trigger.primary.msm8952.so
