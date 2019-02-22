@@ -228,7 +228,7 @@ TARGET_USES_OLD_MNC_FORMAT := true
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
 # Sepolicy
-include device/qcom/sepolicy-legacy/sepolicy.mk
+include device/qcom/sepolicy/Android.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Shims
