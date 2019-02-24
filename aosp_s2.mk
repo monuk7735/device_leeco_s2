@@ -18,7 +18,7 @@
 $(call inherit-product, device/leeco/s2/full_s2.mk)
 
 # Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # PixelExperience stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
