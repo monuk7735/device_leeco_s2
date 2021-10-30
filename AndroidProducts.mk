@@ -15,3 +15,9 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_s2.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosp_s2-user \
+    aosp_s2-userdebug \
+    aosp_s2-eng
+    
